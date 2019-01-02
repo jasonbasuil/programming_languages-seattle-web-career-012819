@@ -8,6 +8,8 @@ def reformat_languages(languages)
     language_hash.each do |language, type|
       if new_hash[language] 
         new_hash[language][style_hash] << style_hash
+      else
+        
     end
   end 
   binding.pry
